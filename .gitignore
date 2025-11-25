@@ -1,5 +1,113 @@
+############################
+# .NET build artifacts
+############################
+
+# Build results
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+out/
+
+# Visual Studio / MSBuild cache
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.ilk
+*.idb
+*.tlog
+
+# ASP.NET Core logs
+*.log
+
+############################
+# Rider / IntelliJ IDEA
+############################
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Rider plugins and caches
+/.idea/.idea.*
+/.idea/**/workspace.xml
+/.idea/**/tasks.xml
+/.idea/**/dictionaries
+/.idea/**/shelf
+
+# JetBrains caches
+/.idea/**/dataSources/
+/.idea/**/dataSources.ids
+/.idea/**/dataSources.local.xml
+/.idea/**/sql/
+/.idea/**/dynamic.xml
+/.idea/**/uiDesigner.xml
+ 
+# Rider-specific folders
+*.DotSettings.user
+.idea/.idea.*
+.idea/**/contentModel.xml
+
+############################
+# System files
+############################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+############################
+# User-specific files
+############################
+
+*.env
+.env.*
+*.secret.json
+appsettings.Development.json
+appsettings.Local.json
+
+############################
+# Tools
+############################
+
+# NPM / Node
+node_modules/
+
+# Logs
+*.log
+
+############################
+# NuGet
+############################
+
+*.nupkg
+packages/
+.nuget/
+
+############################
+# Others
+############################
+
+# Publish profiles
+Properties/PublishProfiles/
+
+# Certificates
+*.pfx
+*.p12
+*.snk
+
+# SQLite databases (если вдруг появятся)
+*.db
+*.sqlite
+
+# Other
+*.swp
+*.tmp
